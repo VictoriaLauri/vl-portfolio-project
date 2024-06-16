@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <title>Victoria Lauri - Software Development</title>
+</head>
+
+<body>
+  <!-- Desktop Menu -->
+  <nav id="desktop-nav">
+    <div class="logo">
+      <img id="logo" src="./assets/logo.png" alt="logo">
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li> 
+          <a href="#about">About</a>
+        </li>
+        <li> 
+          <a href="#experience">Experience</a>
+        </li>
+        <li> 
+          <a href="#projects">Projects</a>
+        </li>
+        <li> 
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hamburger Menu -->
+  <nav id="hamburger-nav">
+    <div class="logo">
+      <img id="logo" src="./assets/logo.png" alt="logo">
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li> 
+            <a href="#about" onclick="toggleMenu()">About</a>
+          </li>
+          <li> 
+            <a href="#experience" onclick="toggleMenu()">Experience</a>
+          </li>
+          <li> 
+            <a href="#projects" onclick="toggleMenu()">Projects</a>
+          </li>
+          <li> 
+            <a href="#contact" onclick="toggleMenu()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--SECTIONS-->
+<!-- Profile-->
+<section id="profile">
+  <div class="section__pic-container">
+    <img id="profile-pic" src="./assets/profile-picture.jpg" alt="Victoria Lauri profile picture">
+  </div>
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h2 class="title">Victoria Lauri</h2>
+    <p class="section__text__p2">Software Developer in London, UK</p>
+    <div class="btn-container">
+      <button class="btn" onclick="location.href='./#contact'">Contact Me</button>
+    </div>
+    <div id="socials-container">
+      <img src="./assets/linkedin.svg" alt="linkedin icon" class="icon" onclick="location.href='https:/linkedin.com/in/victorialauri/'">
+      <img src="./assets/github.svg" alt="github icon" class="icon" onclick="location.href='https:/github.com/VictoriaLauri/'">
+      <img src="./assets/youtube.svg" alt="youtube icon" class="icon" onclick="location.href='https:/youtube.com/'">
+    </div>
+  </div>
+</section>
+<section id="about">
+  <p class="section__text__p1">A bit more</p>
+  <h2 class="title">About me</h2>
+  <div class="section-container">
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+            src="./assets/experience.svg"
+            alt="Experience icon"
+            class="icon"
+          />
+          <h3>Experience</h3>
+          <p>15 years <br />Professional experience</p>
+          <p>1 year <br /> Software Development</p>
+        </div>
+        <div class="details-container">
+          <img
+            src="./assets/education.svg"
+            alt="Education icon"
+            class="icon"
+          />
+          <h3>Education</h3>
+          <p>B.A. Bachelors Degree<br /> English Linguistics</p>
+          <p>M.Sc. Masters Degree<br /> European Real Estate</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          Representing a real-life example of cognitive diversity in the world of tech. An aspiring software developer from a non-traditional background with focus on user experience, best practices and speed optimization. My passion is to develop dynamic and responsive web applications that meet client needs.
+        </p>
+      </div>
+  </div>
+  <img src="./assets/arrow-down.svg" alt="arrow down" class="icon arrow" onclick="location.href='./#experience'">
+</section>
+<!-- Experience -->
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Actively using</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Actively using</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Most popular</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Working knowledge</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Familiar</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Familiar</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks and Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Most popular</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Working knowledge</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkbox.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Actively using</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow-down.svg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      >
+</section>
+<!-- Projects -->
+<section id="projects">
+  <p class="section__text__p1">Check out some of my</p>
+  <h2 class="title">Projects</h2>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/coming-soon.png"
+            alt="Project 1"
+            class="project-img"
+          />
+        </div>
+        <h3 class="experience-sub-title project-title">Project coming soon...</h3>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+            disabled
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+            disabled
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/coming-soon.png"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h3 class="experience-sub-title project-title">Project coming soon...</h3>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+            disabled
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+            disabled
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/coming-soon.png"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h3 class="experience-sub-title project-title">Project coming soon...</h3>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+            disabled
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+            disabled
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow-down.svg"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  />
+</section>
+<!-- Contact -->
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h2 class="title">Contact Me</h2>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.svg"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:victoria@victorialauri.com">victoria@victorialauri.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./assets/linkedin.svg"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/victorialauri/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Victoria Lauri. All Rights Reserved.</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
